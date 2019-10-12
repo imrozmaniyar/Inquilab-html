@@ -107,6 +107,23 @@ body {
     font-weight: bold;
     color: #fff;
 }
+.news-section-bg{
+	background-color: #e2f7ff;
+}
+.news-section-inner-bg{
+	background-color: #fff
+}
+.news-breadcrumb{
+	background: transparent;
+}
+.news-breadcrumb a{
+	color: #0468d3;
+	text-decoration: none
+}
+.news-breadcrumb:hover{
+	color: #0468d3;
+	text-decoration: none
+}
 .read-more{
 	color: #000;
     font-size: 14px;
