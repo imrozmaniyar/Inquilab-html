@@ -115,6 +115,26 @@ body {
 .photo-section-title a:hover{
 	text-decoration: none
 }
+.photo-camera-icon{
+	position: absolute;
+    bottom: 80px;
+    right: 15px;
+    color: #fff;
+    font-size: 20px !important;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 12px;
+    border-radius: 50%;
+}
+.video-play-icon{
+	position: absolute;
+    bottom: 72px;
+    right: 15px;
+    color: #fff;
+    font-size: 20px !important;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 12px 12px 12px 15px;
+    border-radius: 50%;
+}
 .latest-text {
   position: absolute;
     bottom: 22px;
@@ -166,6 +186,7 @@ body {
   -webkit-box-shadow: 3px 4px 8px -2px rgba(231,230,230,1);
 -moz-box-shadow: 3px 4px 8px -2px rgba(231,230,230,1);
 box-shadow: 3px 4px 8px -2px rgba(231,230,230,1);
+position: relative;
 }
 .horizontal-border{
 	border: 3px solid #e7e6e6;
