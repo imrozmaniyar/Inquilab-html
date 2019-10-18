@@ -100,12 +100,13 @@ body {
 .first-section-sub-desc{
 	font-weight: 600;
 	margin-top: 10px;
-    padding: 5px 15px 5px 5px;
+    padding: 5px 15px 15px 5px;
     margin-bottom: 0;
 }
 .photo-section-bg{
 	background: url('../images/photo_bg.png');
 	background-repeat: no-repeat;
+	background-size: contain;
 }
 .photo-section-title{
 	font-size: 24px;
@@ -170,6 +171,21 @@ body {
     font-weight: 600;
     line-height: 24px;
     text-decoration: underline;
+}
+
+.read-more-sports-entertainment {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+}
+
+.read-more-sports-entertainment:hover {
+    color: #000;
 }
 .read-more:hover{
 	color: #000;
@@ -265,5 +281,22 @@ position: relative;
 .vertical-border-content-seperator{
 	border:none!important;
 }
+.photo-section-bg{
+	background-size: auto;
+}
 
+.read-more-sports-entertainment{
+	position: relative;
+}
+
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.media-body{
+	display: contents;
+}
 }
