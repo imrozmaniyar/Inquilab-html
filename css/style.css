@@ -231,7 +231,6 @@ position: relative;
 }
 .lifestyle-section-desc{
 	font-weight: 600;
-    line-height: 35px;
 }
 .vertical-border-content-seperator{
 	border-right: 2px solid #bbbbbb;
@@ -288,6 +287,9 @@ position: relative;
 .read-more-sports-entertainment{
 	position: relative;
 }
+.video-play-icon{
+	bottom: 80px;
+}
 
 }
 
@@ -298,5 +300,12 @@ position: relative;
   and (-webkit-min-device-pixel-ratio: 2) {
 .media-body{
 	display: contents;
+}
+
+.photo-camera-icon{
+	bottom: 130px;
+}
+.video-play-icon{
+	bottom: 130px;
 }
 }
