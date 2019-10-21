@@ -273,7 +273,6 @@ position: relative;
 	border: 1px solid #fff;
 }
 .news-details p {
-	font-weight: 600;
 	margin-top: 1rem;
 }
 .news-details .card{
@@ -285,7 +284,7 @@ position: relative;
 	text-align: right;
 }
 .news-details-title{
-	font-size: 26px;
+	font-size: 28px;
 	color: #000
 }
 .news-details-author{
@@ -361,6 +360,17 @@ position: relative;
 }
 .video-play-icon{
 	bottom: 80px;
+}
+
+.bg-grey-mobile{
+	background-color: #dadada;
+}
+.first-section-title{
+	font-size: 22px;
+    line-height: 30px;
+}
+.first-section-desc{
+	line-height: 30px;
 }
 
 }
