@@ -89,13 +89,21 @@ body {
     display: block;
     padding: 0.7rem 1rem;
 }
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
 .first-section-title{
 	font-size: 24px;
     font-weight: bold;
-    line-height: 40px;
+    line-height: 30px;
 }
 .first-section-desc{
-    line-height: 40px;
+    line-height: 30px;
 }
 .first-section-sub-desc{
 	font-weight: 600;
@@ -336,6 +344,7 @@ position: relative;
 }
 .article-news-listing-title:hover{
 	color: #000;
+	text-decoration: none;
 }
 .article-news-listing-sub-title{
 	font-size: 22px;
@@ -390,4 +399,12 @@ position: relative;
 .video-play-icon{
 	bottom: 130px;
 }
+.latest-text {
+    position: relative;
+    bottom: 30px;
+    width: 80px;
+    float: right;
+    right: 0;
+}
+
 }
