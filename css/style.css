@@ -132,12 +132,32 @@ body {
     color: #fff;
     font-size: 20px !important;
     background: rgb(0, 0, 0, 0.6);
-    padding: 12px;
+    padding: 12px 12px 12px 12px;
+    border-radius: 50%;
+}
+.photo-camera-icon-single-mobile-grid{
+	position: absolute;
+    bottom: 90px;
+    right: 10px;
+    color: #fff;
+    font-size: 20px !important;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 12px 12px 12px 12px;
     border-radius: 50%;
 }
 .video-play-icon{
 	position: absolute;
-    bottom: 86px;
+    bottom: 80px;
+    right: 20px;
+    color: #fff;
+    font-size: 20px !important;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 12px 12px 12px 15px;
+    border-radius: 50%;
+}
+.video-play-icon-single-mobile-grid{
+	position: absolute;
+    bottom: 90px;
     right: 10px;
     color: #fff;
     font-size: 20px !important;
@@ -395,7 +415,16 @@ position: relative;
 	position: relative;
 }
 .video-play-icon{
-	bottom: 80px;
+	bottom: 130px;
+	right: 20px;
+	font-size: 10px !important;
+    padding: 6px 6px 6px 10px;
+}
+.photo-camera-icon{
+	bottom: 130px;
+	right: 20px;
+	font-size: 10px !important;
+    padding: 6px;
 }
 
 .bg-grey-mobile{
@@ -413,7 +442,7 @@ position: relative;
     right: 20px;
     color: #fff;
     font-size: 10px !important;
-    padding: 6px 6px 6px 9px;
+    padding: 6px 6px 6px 10px;
 }
 
 }
