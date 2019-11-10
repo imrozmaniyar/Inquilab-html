@@ -145,6 +145,18 @@ body {
     padding: 12px 12px 12px 15px;
     border-radius: 50%;
 }
+
+.video-play-icon-grid-3 {
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
+    color: #fff;
+    font-size: 20px !important;
+    background: rgb(0, 0, 0, 0.6);
+    padding: 12px 12px 12px 15px;
+    border-radius: 50%;
+}
+
 .latest-text {
   position: absolute;
     bottom: 22px;
@@ -395,6 +407,13 @@ position: relative;
 }
 .first-section-desc{
 	line-height: 30px;
+}
+.video-play-icon-grid-3 {
+    bottom: 135px;
+    right: 20px;
+    color: #fff;
+    font-size: 10px !important;
+    padding: 6px 6px 6px 9px;
 }
 
 }
