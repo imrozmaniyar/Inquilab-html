@@ -125,6 +125,37 @@ body {
 .photo-section-title a:hover{
 	text-decoration: none
 }
+.photo-details-bg{
+	background-color: #eeeeee;
+	position: relative;
+}
+.photo-details-bg-seperator{
+	background-color: #eeeeee;
+	position: relative;
+}
+.photo-details-bg-seperator:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+    width: 0;
+    height: 0;
+    border-top: solid 20px #eeeeee;
+    border-left: solid 20px transparent;
+    border-right: solid 20px transparent;
+}
+.photo-details-count-no{
+	position: absolute;
+    top: 0;
+    background: #f12933;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 3px 15px;
+}
+.photo-details-count-no span{
+	font-size: 18px;
+}
 .photo-camera-icon{
 	position: absolute;
     bottom: 80px;
