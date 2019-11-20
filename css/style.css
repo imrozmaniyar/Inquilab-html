@@ -431,7 +431,59 @@ position: relative;
 .border-left-vertical{
 	border-left: 5px solid #bbbbbb;
 }
+.font-family-roboto{
+	font-family: 'Roboto', sans-serif;
+}
+.register-form-control{
+	background: #eeeeee;
+    color: #000;
+    border-radius: 2rem;
+    border: 1px solid #eeeeee;
+    padding: 2rem 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.register-select-dropdown{
+	background-color: #eeeeee;
+    height: auto;
+    padding: 1.2rem .75rem;
+    border: 1px solid #eeeeee;
+}
+.register-checkbox-label{
+	color: #404040;
+	font-size: 14px;
+}
+.register-checkbox-label a:hover{
+	color: #4a64ba;
+	text-decoration: underline;
+}
+.register-checkbox-label a{
+	color: #4a64ba;
+	text-decoration: underline;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+.login-text{
+	color: #0468d3;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.login-text a{
+	text-decoration: none;
+}
 
+.register-placeholder input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+.register-placeholder input::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+.register-placeholder input:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+.register-placeholder input:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
 @media only screen and (max-width: 600px)  {  
 
 /*// Small devices (landscape phones, 576px and up)*/
