@@ -30,4 +30,5 @@ $(document).ready(function () {
         // On page load
         stickyToggle(sticky, stickyWrapper, $(window));
     });
+
 });
